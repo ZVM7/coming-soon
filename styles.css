@@ -1,0 +1,88 @@
+.first-base {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.first-base h1 {
+    font-size:44px ;
+    font-family: "Libre Franklin", sans-serif;
+    color:  hsl(0, 0%, 59%);
+    font-weight: 300;
+
+}
+
+.first-base span {
+    color:black;
+    font-weight: 600;
+
+} 
+
+
+.first-base p {
+    margin-top: -15px;
+    font-size: 16px;
+    font-family: "Libre Franklin", sans-serif;
+
+}
+
+.first-base input {
+    margin-top: 16px;
+    width:21%;
+    padding: 12px;
+    border-radius: 30px;
+    margin-right: 11px;
+    border:1px solid gainsboro;
+}
+.first-base input::placeholder {
+    color:gainsboro; 
+}
+.first-base button {
+    background-color:  hsl(223, 87%, 63%);
+    color: white;
+    padding: 11px;
+    border-radius: 30px;
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    width: 10%;
+    font-family: "Libre Franklin", sans-serif;
+
+}
+
+
+.second-base img {
+    display: block;
+    margin: 0 auto;
+    width: 38%;
+}
+
+.third-base {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+    gap:20px;
+}
+
+.third-base  i {
+    border:1px solid gainsboro;
+    border-radius: 50%;
+    padding: 10px;
+    color: hsl(223, 87%, 63%);
+
+
+}
+
+.third-base  i:hover { 
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+}
+
+.final {
+    margin-top: 27px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+}
